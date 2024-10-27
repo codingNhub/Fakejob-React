@@ -1,0 +1,58 @@
+.job-tips {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+}
+
+  .job-tips .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+}
+
+  .job-tips img,
+  .job-tips .item-img {
+    width: 100%;
+    height: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+  .job-tips .item:focus,
+  .job-tips span:focus {
+    outline: none;
+}
+
+  .job-tips .item {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+      .job-tips .item {
+        margin-bottom: 1rem;
+    }
+}
+
+  .job-tips .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+  .job-tips .mbr-section-title {
+    color: #000000;
+}
+
+  .job-tips .mbr-text,
+  .job-tips .mbr-section-btn {
+    color: #000000;
+}
+
+  .job-tips .item-title {
+    color: #000000;
+}
+
+  .job-tips .content-head {
+    max-width: 800px;
+}

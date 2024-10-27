@@ -1,0 +1,91 @@
+.filter-container {
+    padding: 20px;
+    background-color: #8ea7c1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.filter-container h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.filter-option {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 50vh;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.filter-option:hover {
+    transform: scale(1.05);
+}
+
+.filter-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.filter-option .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Gradient overlay */
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.filter-option h3,
+.filter-option p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.filter-option h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.filter-option p {
+    font-size: 18px;
+}
